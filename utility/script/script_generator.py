@@ -35,7 +35,7 @@ def generate_script(topic):
     )
 
     response = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini-2024-07-18",
             messages=[
                 {"role": "system", "content": prompt},
                 {"role": "user", "content": topic}
